@@ -22,3 +22,7 @@ nm1=st.number_input('Dame n1')
 nm2=st.number_input('Dame n2')
 mult=nm1*nm2
 st.write('La multiplicacion de', nm1,"por",nm2,"es :",mult)
+with st.sidebar:
+    num1 = st.slider('Elige el numero 1', 0, 100, 25)
+    num2 = st.slider('Elige el numero 2', 0, 100, 25)
+    
