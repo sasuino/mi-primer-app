@@ -8,3 +8,5 @@ import pandas as pd
 #st.map(df)
 st.text("hola mundo")
 st.latex("\int_1^6")
+st.markdown("#titulo")
+st.markdown("este es una viñeta")
