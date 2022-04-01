@@ -7,4 +7,4 @@ import pandas as pd
 #st.write(df)
 #st.map(df)
 st.text("hola mundo")
-st.latex("C_6H_6")
+st.latex("\int_1^6")
